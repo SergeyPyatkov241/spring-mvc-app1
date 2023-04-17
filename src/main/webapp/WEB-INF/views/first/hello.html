@@ -1,0 +1,23 @@
+<!Doctype html>
+<html lang="ru" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+    <title>Hello</title>
+</head>
+<body>
+Hello! Привет!
+<br>
+<a href="/spring-mvc-app1/first/goodbye">Say goodbye!</a> or <a href="/spring-mvc-app1/exit">Exit</a>
+<br>
+<a href="/spring-mvc-app1/first/hello?name=Tom&surname=Jones">Say hello with parameters</a>
+
+<p th:text="${message}"/>
+
+<p>Ссылки калькулятора: a=4, b=2</p>
+<a href="/spring-mvc-app1/first/calculator?a=4&b=2&action=multiplication">multiplication</a> <br>
+<a href="/spring-mvc-app1/first/calculator?a=4&b=2&action=addition">addition</a> <br>
+<a href="/spring-mvc-app1/first/calculator?a=4&b=2&action=subtraction">subtraction</a> <br>
+<a href="/spring-mvc-app1/first/calculator?a=4&b=2&action=division">division</a> <br>
+
+</body>
+</html>

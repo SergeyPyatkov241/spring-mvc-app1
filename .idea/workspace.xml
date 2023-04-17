@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14119ea5-2358-4949-81cb-db4b95e24d07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/JazzMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/MusicGenre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/resources/applicationContext.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2N2ShGC8sPleJZB5cWeXo2uuVWk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "G:/Java/SpringCourse/spring-mvc-app1",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14119ea5-2358-4949-81cb-db4b95e24d07" name="Changes" comment="" />
+      <created>1678860815274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678860815274</updated>
+    </task>
+    <servers />
+  </component>
+</project>

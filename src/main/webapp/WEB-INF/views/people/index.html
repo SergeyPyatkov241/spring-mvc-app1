@@ -1,0 +1,18 @@
+<!Doctype html>
+<html lang="ru" xmlns:th="http://thymeleaf.org">
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <title>Все люди</title>
+</head>
+<body>
+<p>Список людей:</p>
+<div th:each="person : ${people}">
+  <a th:href="@{/people/{id}(id=${person.getId()})}"
+     th:text="${person.getName() + ', ' + person.getAge()}"
+  >user</a>
+</div>
+<br/>
+<hr/>
+<a href="/spring-mvc-app1/people/new">Создать нового человека</a>
+</body>
+</html>
