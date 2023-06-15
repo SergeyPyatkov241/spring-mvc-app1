@@ -14,6 +14,7 @@
       <change afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/SpringConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/Computer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/MusicGenre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/dao/PersonMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/Computer.java" afterDir="false" />
@@ -27,6 +28,11 @@
       <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,32 +74,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/Java/SpringCourse/spring-mvc-app1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
-    "spring.configuration.checksum": "c07a7db8416b3c89509ae1591c19403d",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Java/SpringCourse/spring-mvc-app1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c07a7db8416b3c89509ae1591c19403d&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TomCat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
