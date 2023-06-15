@@ -14,7 +14,8 @@
       <change afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/SpringConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/Computer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/MusicGenre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/dao/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/Computer.java" afterDir="false" />
@@ -28,11 +29,8 @@
       <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
