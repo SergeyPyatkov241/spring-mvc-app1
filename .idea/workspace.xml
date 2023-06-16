@@ -14,8 +14,6 @@
       <change afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/SpringConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/Computer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/MusicGenre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/controllers/BatchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson12.SpringAnnotations4/src/main/java/ru/alishev/springcourse/Computer.java" afterDir="false" />
@@ -29,9 +27,12 @@
       <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/java/ru/alishev/springcourse/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.FirstIoCApp/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b47c370f-a6e2-4a85-bf43-9600c0e40b5b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b47c370f-a6e2-4a85-bf43-9600c0e40b5b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b47c370f-a6e2-4a85-bf43-9600c0e40b5b/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b47c370f-a6e2-4a85-bf43-9600c0e40b5b/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pyatkov/springcourse/models/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +205,7 @@
       <workItem from="1686121836625" duration="443000" />
       <workItem from="1686122325968" duration="1378000" />
       <workItem from="1686721023903" duration="4415000" />
-      <workItem from="1686889628871" duration="7676000" />
+      <workItem from="1686889628871" duration="10317000" />
     </task>
     <servers />
   </component>
