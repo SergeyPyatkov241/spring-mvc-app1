@@ -28,23 +28,23 @@ public class PersonDAO {
     }
 
     public Person show(int id) {
-        return jdbcTemplate.query("SELECT * FROM Person WHERE id=?",new Object[]{id}, new PersonMapper())
+        return jdbcTemplate.query("SELECT * FROM Person WHERE id=?",new Object[]{id}, new BeanPropertyRowMapper<>(Person.class))
                 .stream().findAny().orElse(null);
     }
 
     public Optional<Person> show(String email) {
-        return jdbcTemplate.query("SELECT * FROM Person WHERE email=?", new Object[]{email}, new PersonMapper())
+        return jdbcTemplate.query("SELECT * FROM Person WHERE email=?", new Object[]{email}, new BeanPropertyRowMapper<>(Person.class))
                 .stream().findAny();
     }
 
     public void save(Person person) {
-        jdbcTemplate.update("INSERT INTO Person(name, age, email) VALUES(?, ?, ?)",person.getName(), person.getAge(),
-                person.getEmail());
+        jdbcTemplate.update("INSERT INTO Person(name, age, email, address) VALUES(?, ?, ?, ?)",person.getName(), person.getAge(),
+                person.getEmail(), person.getAddress());
     }
 
     public void update(int id, Person updatedPerson) {
-        jdbcTemplate.update("UPDATE Person SET name=?, age=?, email=? WHERE id=?",updatedPerson.getName(), updatedPerson.getAge(),
-                updatedPerson.getEmail(), id);
+        jdbcTemplate.update("UPDATE Person SET name=?, age=?, email=?, address=? WHERE id=?",updatedPerson.getName(), updatedPerson.getAge(),
+                updatedPerson.getEmail(), updatedPerson.getAddress(), id);
     }
 
     public void delete(int id) {
@@ -57,8 +57,8 @@ public class PersonDAO {
         long before = System.currentTimeMillis();
 
         for (Person person : people) {
-            jdbcTemplate.update("INSERT INTO Person(name, age, email) VALUES(?, ?, ?)", person.getName(), person.getAge(),
-                    person.getEmail());
+            jdbcTemplate.update("INSERT INTO Person(name, age, email, address) VALUES(?, ?, ?, ?)", person.getName(), person.getAge(),
+                    person.getEmail(), person.getAddress());
         }
 
         long after = System.currentTimeMillis();
@@ -69,13 +69,14 @@ public class PersonDAO {
         List<Person> people = create1000People();
         long before = System.currentTimeMillis();
 
-        jdbcTemplate.batchUpdate("INSERT INTO Person(name, age, email) VALUES(?, ?, ?)",
+        jdbcTemplate.batchUpdate("INSERT INTO Person(name, age, email, address) VALUES(?, ?, ?, ?)",
                 new BatchPreparedStatementSetter() {
                     @Override
                     public void setValues(PreparedStatement ps, int i) throws SQLException {
                         ps.setString(1, people.get(i).getName());
                         ps.setInt(2, people.get(i).getAge());
                         ps.setString(3, people.get(i).getEmail());
+                        ps.setString(4, people.get(i).getAddress());
                     }
 
                     @Override
@@ -95,7 +96,7 @@ public class PersonDAO {
     private List<Person> create1000People() {
         List<Person> people = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
-            people.add(new Person("Name #" + i, i++, "test" + i + "@mail.ru"));
+            people.add(new Person("Name #" + i, i++, "test" + i + "@mail.ru", "address"));
         }
         return people;
     }
