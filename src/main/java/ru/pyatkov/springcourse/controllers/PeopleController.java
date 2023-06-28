@@ -1,12 +1,12 @@
 package ru.pyatkov.springcourse.controllers;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import ru.pyatkov.springcourse.dao.PersonDAO;
 import ru.pyatkov.springcourse.models.Person;
+import ru.pyatkov.springcourse.util.PersonValidator;
 
 import javax.validation.Valid;
 
@@ -15,9 +15,11 @@ import javax.validation.Valid;
 public class PeopleController {
 
     private final PersonDAO personDAO;
+    private final PersonValidator personValidator;
 
-    public PeopleController(PersonDAO personDAO) {
+    public PeopleController(PersonDAO personDAO, PersonValidator personValidator) {
         this.personDAO = personDAO;
+        this.personValidator = personValidator;
     }
 
     @GetMapping()
@@ -40,6 +42,7 @@ public class PeopleController {
     @PostMapping()
     public String create(@ModelAttribute("person") @Valid Person person,
                          BindingResult bindingResult) {
+        personValidator.validate(person, bindingResult);
         if(bindingResult.hasErrors())
             return "people/new";
         personDAO.save(person);
@@ -56,6 +59,7 @@ public class PeopleController {
     public String update(@ModelAttribute("person") @Valid Person person,
                          BindingResult bindingResult,
                          @PathVariable("id") int id) {
+        personValidator.validate(person, bindingResult);
         if(bindingResult.hasErrors())
             return "people/edit";
         personDAO.update(id, person);
